@@ -138,19 +138,19 @@ export default function DrawsPage() {
                 </div>
 
                 <div className={styles.prizeGrid} style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
-                  <div className={styles.prizeItem} style={{ textAlignment: 'center', background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '16px' }}>
+                  <div className={styles.prizeItem} style={{ textAlign: 'center', background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '16px' }}>
                     <div className={styles.prizeVal} style={{ color: 'var(--gold)', fontSize: '1.75rem', fontWeight: 700 }}>
                       ₹{(selectedDraw.jackpot_amount || 0).toLocaleString('en-IN')}
                     </div>
                     <div className={styles.prizeLbl} style={{ fontSize: '0.75rem', color: 'var(--gray-500)', textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '4px' }}>GRAND JACKPOT</div>
                   </div>
-                  <div className={styles.prizeItem} style={{ textAlignment: 'center', background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '16px' }}>
+                  <div className={styles.prizeItem} style={{ textAlign: 'center', background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '16px' }}>
                     <div className={styles.prizeVal} style={{ color: 'var(--white)', fontSize: '1.75rem', fontWeight: 700 }}>
                       ₹{(selectedDraw.prize_pool || 0).toLocaleString('en-IN')}
                     </div>
                     <div className={styles.prizeLbl} style={{ fontSize: '0.75rem', color: 'var(--gray-500)', textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '4px' }}>TOTAL PRIZE POOL</div>
                   </div>
-                  <div className={styles.prizeItem} style={{ textAlignment: 'center', background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '16px' }}>
+                  <div className={styles.prizeItem} style={{ textAlign: 'center', background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '16px' }}>
                     <div className={styles.prizeVal} style={{ color: 'var(--success)', fontSize: '1.75rem', fontWeight: 700 }}>
                       ₹{(selectedDraw.charity_contribution || 0).toLocaleString('en-IN')}
                     </div>
