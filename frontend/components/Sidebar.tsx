@@ -52,7 +52,7 @@ export default function Sidebar() {
             key={link.href}
             href={link.href}
             className={`${styles.navLink} ${
-              pathname === link.href || (link.href !== '/admin' && link.href !== '/dashboard' && pathname.startsWith(link.href))
+              pathname === link.href || (link.href !== '/admin' && link.href !== '/dashboard' && pathname?.startsWith(link.href))
                 ? styles.active
                 : ''
             }`}
