@@ -1,0 +1,237 @@
+﻿.page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-5);
+}
+
+.cardHeader h3 {
+  font-size: 1.1rem;
+}
+
+/* Scores */
+.scoresList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.scoreItem {
+  display: grid;
+  grid-template-columns: 32px 80px 1fr;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background: rgba(255,255,255,0.04);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.scoreRank {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-500);
+  text-align: center;
+}
+
+.scoreValue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--lime);
+  font-family: var(--font-heading);
+}
+
+.scoreDate {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  margin-top: 2px;
+}
+
+.scoreBar {
+  height: 4px;
+  background: rgba(170, 255, 0, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.scoreBarFill {
+  height: 100%;
+  background: var(--grad-lime);
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+.scoreAvg {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  padding: var(--space-3) var(--space-4);
+  background: rgba(170, 255, 0, 0.04);
+  border-radius: var(--radius-md);
+  margin-top: var(--space-2);
+}
+
+/* Draw info */
+.drawInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.drawMonth {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.drawStatus {
+  display: flex;
+}
+
+.prizeDisplay {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 140, 0, 0.08));
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.prizeAmount {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.prizeLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+.winNums {
+  background: rgba(255,255,255,0.04);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.winNumsLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-3);
+}
+
+.numbersRow {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.ball {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--grad-lime);
+  color: var(--green-900);
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Quick links */
+.quickLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.quickLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius-lg);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-300);
+  transition: all var(--transition-base);
+}
+
+.quickLink span:first-child { font-size: 1.5rem; }
+
+.quickLink:hover {
+  background: rgba(170, 255, 0, 0.08);
+  border-color: rgba(170, 255, 0, 0.2);
+  color: var(--lime);
+  transform: translateY(-2px);
+}
+
+/* Empty state */
+.emptyState {
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+  color: var(--gray-500);
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  margin-bottom: var(--space-4);
+  opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .statsGrid { grid-template-columns: repeat(2, 1fr); }
+  .mainGrid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .statsGrid { grid-template-columns: 1fr 1fr; }
+  .header { flex-direction: column; }
+}
+

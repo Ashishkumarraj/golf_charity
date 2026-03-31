@@ -1,0 +1,44 @@
+﻿.page { max-width: 1200px; margin: 0 auto; }
+
+.statsRow {
+  display: flex;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+  padding: var(--space-5) var(--space-6);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  flex-wrap: wrap;
+}
+
+.stat { display: flex; flex-direction: column; gap: 4px; }
+.statNum { font-family: var(--font-heading); font-size: 1.75rem; font-weight: 700; color: var(--white); }
+.statLbl { font-size: 0.75rem; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.06em; }
+
+.controls {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  margin-bottom: var(--space-5);
+  flex-wrap: wrap;
+}
+
+.userCell { display: flex; align-items: center; gap: var(--space-3); }
+
+.userAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--grad-lime);
+  color: var(--green-900);
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.userName { font-weight: 600; color: var(--white); font-size: 0.9rem; }
+.userEmail { font-size: 0.8rem; color: var(--gray-500); }
+

@@ -1,0 +1,110 @@
+﻿.page { max-width: 1200px; margin: 0 auto; }
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.createForm {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.createActions {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.drawList {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.drawItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  transition: all var(--transition-fast);
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.drawItem:last-child { border-bottom: none; }
+.drawItem:hover { background: rgba(170,255,0,0.05); }
+.drawItem.activeItem { background: rgba(170,255,0,0.1); border-left: 2px solid var(--lime); }
+.drawItemMonth { font-weight: 600; color: var(--white); font-size: 0.9rem; }
+
+.detail { display: flex; flex-direction: column; gap: var(--space-6); }
+
+.detailHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-5);
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.detailHeader h2 { margin-bottom: 8px; }
+
+.prizeRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.prizeItem { text-align: center; padding: var(--space-4); background: rgba(255,255,255,0.04); border-radius: var(--radius-md); }
+.prizeVal { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+.prizeLbl { font-size: 0.75rem; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.06em; }
+
+.numbers { padding: var(--space-4) var(--space-5); background: rgba(0,0,0,0.2); border-radius: var(--radius-lg); margin-bottom: var(--space-5); }
+.numbersLabel { font-size: 0.75rem; color: var(--gray-400); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: var(--space-3); }
+
+.balls { display: flex; gap: var(--space-2); align-items: center; }
+.ball {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--grad-lime);
+  color: var(--green-900);
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--glass-border);
+}
+
+@media (max-width: 768px) {
+  .layout { grid-template-columns: 1fr; }
+  .prizeRow { grid-template-columns: 1fr 1fr; }
+}
+

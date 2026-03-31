@@ -1,0 +1,10 @@
+Supabase Auth Users count: 3
+- user@golfcharity.com (3c370f90-ecac-4317-a892-3673f8e05344)
+- admin@golfcharity.com (defc7473-5404-4f54-87ce-95b8eb26ef9b)
+- gamitoapp@gmail.com (818aec58-90c3-4718-aa0f-c442600b4af3)
+users_profile table records count: 5
+- final_verify_v5_999@example.com (e373ae85-bce0-40ae-86aa-c91f2f1ecb16) [user] [Active: true]
+- verify6@example.com (9083e39e-c43e-4256-a76f-4426d54413b7) [user] [Active: true]
+- gamitoapp@gmail.com (d6ee3c8b-0c61-462c-9eb4-51a7204c03e7) [user] [Active: true]
+- admin@golfcharity.com (defc7473-5404-4f54-87ce-95b8eb26ef9b) [admin] [Active: true]
+- user@golfcharity.com (3c370f90-ecac-4317-a892-3673f8e05344) [user] [Active: true]

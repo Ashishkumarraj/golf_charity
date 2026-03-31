@@ -1,0 +1,48 @@
+﻿
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\(app)\admin\draws\page.tsx
+  66:38  warning  React Hook useEffect has a missing dependency: 'fetchDraws'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\(app)\admin\page.tsx
+  61:43  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  61:50  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\(app)\draws\page.tsx
+   86:87  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  213:36  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\(app)\layout.tsx
+  9:37  warning  'isAdmin' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\(app)\subscription\page.tsx
+  131:57  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\(auth)\login\page.tsx
+  119:14  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\layout.tsx
+  30:9  warning  Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\app\page.tsx
+   58:25  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  108:66  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\lib\auth.tsx
+  149:7  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\AshishPc\OneDrive\Desktop\golf_charity\frontend\lib\auth.tsx:149:7
+  147 |     const token = getToken();
+  148 |     if (token) {
+> 149 |       refreshUser().finally(() => setLoading(false));
+      |       ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  150 |     } else {
+  151 |       setLoading(false);
+  152 |     }  react-hooks/set-state-in-effect
+
+Γ£û 12 problems (9 errors, 3 warnings)
+

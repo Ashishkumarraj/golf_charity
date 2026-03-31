@@ -1,0 +1,83 @@
+.page { max-width: 1100px; margin: 0 auto; }
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-5);
+  margin-bottom: var(--space-10);
+}
+
+.actionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+
+.actionCard {
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  transition: all var(--transition-base);
+  cursor: pointer;
+}
+
+.actionCard:hover {
+  border-color: rgba(170,255,0,0.3);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lime);
+}
+
+.actionIcon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-lg);
+  background: rgba(170,255,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.actionTitle { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+.actionDesc { font-size: 0.8125rem; color: var(--gray-400); }
+.actionArrow { font-size: 1.25rem; color: var(--lime); opacity: 0.6; }
+
+/* Revenue bars */
+.revenueGrid { display: flex; flex-direction: column; gap: var(--space-5); }
+
+.revBar { display: flex; flex-direction: column; gap: 4px; }
+.revLabel { font-size: 0.875rem; color: var(--gray-400); margin-bottom: 4px; }
+.revVal { font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; color: var(--white); margin-bottom: 8px; }
+.revBarBg {
+  height: 8px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.revBarFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s ease;
+}
+
+.lowerSection { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+
+@media (max-width: 1024px) {
+  .lowerSection { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 900px) {
+  .statsGrid { grid-template-columns: repeat(2, 1fr); }
+  .actionsGrid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .statsGrid { grid-template-columns: 1fr 1fr; }
+}
+

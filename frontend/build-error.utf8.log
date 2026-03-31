@@ -1,0 +1,1484 @@
+﻿
+> frontend@0.1.0 build
+> next build
+
+node.exe : ΓÜá Warning: 
+Next.js inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (Γ  
+  Üá Warning: Ne...not    
+ be correct.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Users\
+AshishPc\OneDrive\Desktop\
+golf_charity\package-lock.
+json as the root 
+directory.
+ To silence this warning, 
+set `turbopack.root` in 
+your Next.js config, or 
+consider removing one of 
+the lockfiles if it's not 
+needed.
+   See https://nextjs.org/
+docs/app/api-reference/con
+fig/next-config-js/turbopa
+ck#root-directory for 
+more information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\AshishPc\One
+Drive\Desktop\golf_charity
+\frontend\package-lock.jso
+n
+
+Γû▓ Next.js 16.2.1 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 17 errors:
+./frontend/app/(app)/admin
+/analytics/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/a
+dmin/analytics/page.module
+.css [Client Component 
+Browser]
+    ./frontend/app/(app)/a
+dmin/analytics/page.tsx 
+[Client Component Browser]
+    ./frontend/app/(app)/a
+dmin/analytics/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/a
+dmin/analytics/page.module
+.css [Client Component 
+SSR]
+    ./frontend/app/(app)/a
+dmin/analytics/page.tsx 
+[Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/analytics/page.tsx 
+[Server Component]
+
+
+./frontend/app/(app)/admin
+/charities/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/a
+dmin/charities/page.module
+.css [Client Component 
+Browser]
+    ./frontend/app/(app)/a
+dmin/charities/page.tsx 
+[Client Component Browser]
+    ./frontend/app/(app)/a
+dmin/charities/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/a
+dmin/charities/page.module
+.css [Client Component 
+SSR]
+    ./frontend/app/(app)/a
+dmin/charities/page.tsx 
+[Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/charities/page.tsx 
+[Server Component]
+
+
+./frontend/app/(app)/admin
+/draws/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/a
+dmin/draws/page.module.css
+ [Client Component 
+Browser]
+    ./frontend/app/(app)/a
+dmin/draws/page.tsx 
+[Client Component Browser]
+    ./frontend/app/(app)/a
+dmin/draws/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/a
+dmin/draws/page.module.css
+ [Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/draws/page.tsx 
+[Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/draws/page.tsx 
+[Server Component]
+
+
+./frontend/app/(app)/admin
+/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/a
+dmin/page.module.css 
+[Client Component Browser]
+    ./frontend/app/(app)/a
+dmin/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/a
+dmin/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/a
+dmin/page.module.css 
+[Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/a
+dmin/page.tsx [Server 
+Component]
+
+
+./frontend/app/(app)/admin
+/users/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/a
+dmin/users/page.module.css
+ [Client Component 
+Browser]
+    ./frontend/app/(app)/a
+dmin/users/page.tsx 
+[Client Component Browser]
+    ./frontend/app/(app)/a
+dmin/users/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/a
+dmin/users/page.module.css
+ [Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/users/page.tsx 
+[Client Component SSR]
+    ./frontend/app/(app)/a
+dmin/users/page.tsx 
+[Server Component]
+
+
+./frontend/app/(app)/chari
+ty/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/c
+harity/page.module.css 
+[Client Component Browser]
+    ./frontend/app/(app)/c
+harity/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/c
+harity/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/c
+harity/page.module.css 
+[Client Component SSR]
+    ./frontend/app/(app)/c
+harity/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/c
+harity/page.tsx [Server 
+Component]
+
+
+./frontend/app/(app)/dashb
+oard/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/d
+ashboard/page.module.css 
+[Client Component Browser]
+    ./frontend/app/(app)/d
+ashboard/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/d
+ashboard/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/d
+ashboard/page.module.css 
+[Client Component SSR]
+    ./frontend/app/(app)/d
+ashboard/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/d
+ashboard/page.tsx [Server 
+Component]
+
+
+./frontend/app/(app)/draws
+/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/d
+raws/page.module.css 
+[Client Component Browser]
+    ./frontend/app/(app)/d
+raws/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/d
+raws/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/d
+raws/page.module.css 
+[Client Component SSR]
+    ./frontend/app/(app)/d
+raws/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/d
+raws/page.tsx [Server 
+Component]
+
+
+./frontend/app/(app)/layou
+t.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/l
+ayout.module.css [Client 
+Component Browser]
+    ./frontend/app/(app)/l
+ayout.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/l
+ayout.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/l
+ayout.module.css [Client 
+Component SSR]
+    ./frontend/app/(app)/l
+ayout.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/l
+ayout.tsx [Server 
+Component]
+
+
+./frontend/app/(app)/score
+s/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/s
+cores/page.module.css 
+[Client Component Browser]
+    ./frontend/app/(app)/s
+cores/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/s
+cores/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/s
+cores/page.module.css 
+[Client Component SSR]
+    ./frontend/app/(app)/s
+cores/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/s
+cores/page.tsx [Server 
+Component]
+
+
+./frontend/app/(app)/subsc
+ription/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/s
+ubscription/page.module.cs
+s [Client Component 
+Browser]
+    ./frontend/app/(app)/s
+ubscription/page.tsx 
+[Client Component Browser]
+    ./frontend/app/(app)/s
+ubscription/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/s
+ubscription/page.module.cs
+s [Client Component SSR]
+    ./frontend/app/(app)/s
+ubscription/page.tsx 
+[Client Component SSR]
+    ./frontend/app/(app)/s
+ubscription/page.tsx 
+[Server Component]
+
+
+./frontend/app/(app)/winni
+ngs/page.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(app)/w
+innings/page.module.css 
+[Client Component Browser]
+    ./frontend/app/(app)/w
+innings/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/w
+innings/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(app)/w
+innings/page.module.css 
+[Client Component SSR]
+    ./frontend/app/(app)/w
+innings/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/w
+innings/page.tsx [Server 
+Component]
+
+
+./frontend/app/(auth)/auth
+.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/(auth)/
+auth.module.css [Client 
+Component Browser]
+    ./frontend/app/(auth)/
+signup/page.tsx [Client 
+Component Browser]
+    ./frontend/app/(auth)/
+signup/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/app/(auth)/
+auth.module.css [Client 
+Component SSR]
+    ./frontend/app/(auth)/
+signup/page.tsx [Client 
+Component SSR]
+    ./frontend/app/(auth)/
+signup/page.tsx [Server 
+Component]
+
+
+./frontend/app/globals.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Client Component 
+Browser:
+    ./frontend/app/globals
+.css [Client Component 
+Browser]
+    
+./frontend/app/layout.tsx 
+[Server Component]
+
+
+./frontend/app/home.module
+.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/app/home.mo
+dule.css [Client 
+Component Browser]
+    
+./frontend/app/page.tsx 
+[Client Component Browser]
+    
+./frontend/app/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/app/home.mo
+dule.css [Client 
+Component SSR]
+    
+./frontend/app/page.tsx 
+[Client Component SSR]
+    
+./frontend/app/page.tsx 
+[Server Component]
+
+
+./frontend/components/Navb
+ar.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/components/
+Navbar.module.css [Client 
+Component Browser]
+    ./frontend/components/
+Navbar.tsx [Client 
+Component Browser]
+    
+./frontend/app/page.tsx 
+[Client Component Browser]
+    
+./frontend/app/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./frontend/components/
+Navbar.module.css [Client 
+Component SSR]
+    ./frontend/components/
+Navbar.tsx [Client 
+Component SSR]
+    
+./frontend/app/page.tsx 
+[Client Component SSR]
+    
+./frontend/app/page.tsx 
+[Server Component]
+
+
+./frontend/components/Side
+bar.module.css
+Error evaluating Node.js 
+code
+Error: Cannot find module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[root-of-the-server]__0d-m
+0h0._.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\chunks\
+[turbopack]_runtime.js
+- C:\Users\AshishPc\OneDri
+ve\Desktop\golf_charity\fr
+ontend\.next\build\postcss
+.js
+    [at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1421:15)]
+    [at 
+defaultResolveImpl (node:i
+nternal/modules/cjs/loader
+:1059:19)]
+    [at 
+resolveForCJSWithHooks (no
+de:internal/modules/cjs/lo
+ader:1064:22)]
+    [at Module._load (node
+:internal/modules/cjs/load
+er:1227:37)]
+    [at 
+TracingChannel.traceSync (
+node:diagnostics_channel:3
+28:14)]
+    [at wrapModuleLoad (no
+de:internal/modules/cjs/lo
+ader:245:24)]
+    [at Module.require (no
+de:internal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:inte
+rnal/modules/helpers:152:1
+6)]
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33]
+    [at <anonymous>]
+
+Import traces:
+  Client Component 
+Browser:
+    ./frontend/components/
+Sidebar.module.css 
+[Client Component Browser]
+    ./frontend/components/
+Sidebar.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/l
+ayout.tsx [Client 
+Component Browser]
+    ./frontend/app/(app)/l
+ayout.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./frontend/components/
+Sidebar.module.css 
+[Client Component SSR]
+    ./frontend/components/
+Sidebar.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/l
+ayout.tsx [Client 
+Component SSR]
+    ./frontend/app/(app)/l
+ayout.tsx [Server 
+Component]
+
+
+    at require (turbopack:
+///[turbopack-node]/transf
+orms/postcss.ts:49:25) [C:
+\Users\AshishPc\OneDrive\D
+esktop\golf_charity\fronte
+nd\.next\build\chunks\[roo
+t-of-the-server]__0d-m0h0.
+_.js:134:33])
+    ... collapsed 16 
+duplicate lines matching 
+above 1 lines 16 times...

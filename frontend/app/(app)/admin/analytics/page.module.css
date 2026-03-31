@@ -1,0 +1,40 @@
+﻿.page { max-width: 1100px; margin: 0 auto; }
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+
+/* allocation bars */
+.allocationBars { display: flex; flex-direction: column; gap: var(--space-5); }
+
+.allocBar {}
+
+.allocHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2);
+}
+
+.allocLabel { font-size: 0.9rem; font-weight: 500; color: var(--gray-300); }
+.allocVal { font-size: 0.9rem; font-weight: 700; }
+
+.allocBarBg {
+  height: 10px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.allocBarFill {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 1s ease;
+}
+
+@media (max-width: 900px) { .metricsGrid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .metricsGrid { grid-template-columns: 1fr 1fr; } }
+

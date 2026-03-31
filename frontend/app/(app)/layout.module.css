@@ -1,0 +1,38 @@
+﻿.loadingScreen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  background: var(--green-900);
+  color: var(--gray-400);
+}
+
+.appShell {
+  display: flex;
+  min-height: 100vh;
+  background: var(--green-900);
+}
+
+.mainContent {
+  flex: 1;
+  overflow: hidden;
+}
+
+.main {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--green-900) 0%, #0a1f10 100%);
+  padding: var(--space-8) var(--space-8);
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .appShell {
+    flex-direction: column;
+  }
+  .main {
+    padding: var(--space-5) var(--space-4);
+  }
+}
+

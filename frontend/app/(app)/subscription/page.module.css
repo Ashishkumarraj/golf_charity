@@ -1,0 +1,294 @@
+.page { max-width: 900px; margin: 0 auto; }
+
+/* Current subscription */
+.currentSub { display: flex; flex-direction: column; gap: var(--space-6); }
+.subInfoGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-4); }
+.subInfoItem { background: rgba(255,255,255,0.04); border-radius: var(--radius-md); padding: var(--space-4); }
+.subInfoLabel { font-size: 0.75rem; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
+.subInfoValue { font-weight: 600; color: var(--white); font-size: 0.9375rem; }
+
+.cancelSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-5);
+  background: rgba(255,77,77,0.06);
+  border: 1px solid rgba(255,77,77,0.15);
+  border-radius: var(--radius-lg);
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.cancelTitle { font-weight: 600; color: var(--white); margin-bottom: 4px; }
+.cancelDesc { font-size: 0.875rem; color: var(--gray-400); }
+
+/* --- New Sliding Plan Toggle --- */
+
+.subscriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-8);
+  margin-bottom: var(--space-12);
+}
+
+.toggleContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-2) var(--space-4);
+  background: rgba(255,255,255,0.03);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.toggleLabel {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-400);
+  transition: color var(--transition-base);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.activeLabel {
+  color: var(--white);
+}
+
+.discountBadge {
+  background: var(--lime);
+  color: var(--green-950);
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transform: translateY(-1px);
+}
+
+.toggleTrack {
+  width: 64px;
+  height: 32px;
+  background: var(--gray-800);
+  border-radius: 32px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+  transition: background var(--transition-base);
+}
+
+.toggleTrack:hover {
+  background: var(--gray-700);
+}
+
+.toggleThumb {
+  width: 26px;
+  height: 26px;
+  background: var(--lime);
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* Bouncy elastic transition */
+  box-shadow: 0 2px 8px rgba(170,255,0,0.4);
+}
+
+.toggled {
+  transform: translateX(32px);
+  background: var(--gold);
+  box-shadow: 0 2px 8px rgba(255,215,0,0.4);
+}
+
+/* Sliding Plan Card */
+
+.slidingPlanCard {
+  width: 100%;
+  max-width: 500px;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid rgba(170,255,0,0.2);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+  position: relative;
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+.planHeader {
+  text-align: center;
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.planName {
+  font-size: 1.25rem;
+  color: var(--lime);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  margin-bottom: var(--space-4);
+}
+
+.planPriceWrapper {
+  height: 80px; /* Fixed height for sliding content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.planPrice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--white);
+}
+
+.slideUpEnter {
+  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.slideDownEnter {
+  animation: slideDown 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideDown {
+  0% { transform: translateY(-20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.currency {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 6px;
+  color: var(--lime);
+}
+
+.amount {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.period {
+  font-size: 1rem;
+  color: var(--gray-400);
+  align-self: flex-end;
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+.planSavings {
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-top: 8px;
+  background: rgba(255,215,0,0.1);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.featuresContainer {
+  margin-bottom: var(--space-8);
+}
+
+.featuresTitle {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  margin-bottom: var(--space-4);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.planFeaturesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--gray-200);
+  font-size: 1.05rem;
+  animation: slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(10px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.checkCircle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(170,255,0,0.1);
+  color: var(--lime);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.actionContainer {
+  text-align: center;
+}
+
+.demoNote {
+  font-size: 0.8125rem;
+  color: var(--gray-400);
+  margin-bottom: var(--space-4);
+}
+
+.subscribeBtn {
+  width: 100%;
+  padding: var(--space-4);
+  font-size: 1.125rem;
+  box-shadow: 0 10px 20px rgba(170,255,0,0.2);
+}
+
+/* Money breakdown */
+.moneyGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+}
+
+.moneyItem {
+  text-align: center;
+  padding: var(--space-5);
+  background: rgba(255,255,255,0.04);
+  border-radius: var(--radius-lg);
+}
+
+.moneyPercent {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.moneyLabel { font-size: 0.8125rem; color: var(--gray-400); }
+
+@media (max-width: 640px) {
+  .subInfoGrid { grid-template-columns: repeat(2, 1fr); }
+  .moneyGrid { grid-template-columns: repeat(2, 1fr); }
+  .toggleContainer { flex-direction: column; padding: var(--space-4); border-radius: var(--radius-xl); gap: var(--space-4); }
+  .toggleTrack { transform: rotate(90deg); margin: var(--space-2) 0; }
+}
